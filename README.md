@@ -1,10 +1,18 @@
 # 1976 U.S. Standard Atmosphere Model
 # r/dataisbeautiful's DataViz Battle for December 2019
 
+![Atmospheric Mass by Time](Images/atmosphereMeasuredByTime.png)
+
+## About the Chart
+Have you ever wondered just how massive our atmosphere is? This bar chart shows how long you would sit at a railroad crossing if the mass of each compound and element was transformed into a large freight hopper of equal mass.
+
 ## Background
 December 2019 Reddit's r/dataisbeautiful's DataViz Battle deals with the 1976 version of the U.S. Standard Atmosphere Model. While the dataset itself is small (about 50 datapoints total, and some say the same things but in different units.) what it describes is incredibly complex. More background research is required here to understand what claims are reasonable. 
 
-Some isualizations are also right below the dataset provided, and it seems silly just to re-create one of those. Therefore a second dataset or model should be included here. (perhaps something about aircraft or rocket preformance, or total amounts of molecular mass in each atmospheric level?) 
+![Screenshot of the dataset and charts from wikipedia](Images/1976TableAndGraph.png)
+
+
+With some of the more reasonable compasions visualized right below the dataset provided, it seems silly just to re-create one of those. Therefore a second dataset or model should be included for this project. 
 
 ## Gameplan
 The ideal gas law (PV = *n*RT) states that if one knows three out of four values, one can determine the fourth value.  
@@ -22,10 +30,10 @@ Unfortunately an unforseen problem arrose with the values. There is 7.33E+15 kg 
 
 After much thinking and many discussions, time was chosen as the measurement. The mass of each element and compound was converted from kg into large hopper rail cars (each massing 130,000kg) and multiplied by the length of the car to get a total length for the train. Each train was assumed to travel at just under 129 kph to get the time it would take for the train to pass a railroad crossing.
 
-While not perfect, wait times of less than an hour to 3,000 years seems more relatable than 7.33E+15 kg.
+While not perfect, wait times of less than five minutes to over 3,000 years seems more relatable than 2.07E+05 kg and 7.33E+15 kg.
 
 ## Visualization
-Going with some simple bar charts here to show comparisions between each element and compound by layer of atmosphere.
+Going with some simple bar charts here to show comparisions between each element and compound by layer of atmosphere. Changed the background to a light blue because the sky we see is blue. Also wanted to mess with the bars. Thought about changing their color to show the element/compound they represent, but finding a common metric that didn't use repeat colors (all noble gases as pink in CPK for example) proved too difficult. Also thought about using actual freight train cars in the bar graph, but that also proved too difficult with the little time remaining before the project is due. It is something to explore in the future.
 
 
 ## Links
